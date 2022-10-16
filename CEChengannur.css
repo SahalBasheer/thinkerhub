@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-image: url("pic1-01-scaled.jpeg");
+    background-size: cover;
+
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+
+
+
+header
+{
+   
+ float: left;
+ background-color:aquamarine;
+ color: rgb(248, 13, 13);
+ box-sizing: border-box;
+ 
+    border-bottom-left-radius: 100mm;
+    border-bottom-right-radius: 100mm;
+    padding-top: 0mm;
+width: 100%;
+border: 3px black;
+    border-style: solid;
+  
+}
+
+.h1
+{ 
+   
+    float: left;
+    padding: 20px;
+    
+    margin-left: 30%;
+    text-align: center;
+    
+}
+
+.h2
+{
+    text-align: left;
+    padding-top: 25px;
+    padding-left: 40%;
+    padding-bottom: 15px;
+    
+    
+  border-right: 2.5;
+    font-size: 20px;
+   
+    color: rgb(0, 0, 0);
+    height: 105px;
+  
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.h3{
+    padding-left: 25%;
+ width: 100%;
+ float: left;
+}
+
+.h4 {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+
+
+
+
+
+
+.dropbtn {
+    float: left;
+    background-color: #333;
+    color: white;
+    padding: 14px;
+    font-size: 16px;
+    font-family: serif;
+    border: none;
+      }
+  
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    
+  }
+  .button {
+    overflow: hidden;
+    background-color: #333;
+    float: left;
+    
+  }
+  
+  .button a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    
+  }
+
+  .button a:hover{
+    background-color: #d712b0;;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #5b5858;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    top: 45px;
+    
+  }
+  
+
+  .dropdown-content a {
+    color: rgb(255, 255, 255);
+    padding: 0px 12px 16px 0px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+  }
+  
+ 
+  .dropdown-content a:hover {background-color: rgb(255, 0, 0);}
+  
+
+  .dropdown:hover .dropdown-content {display: block;}
+ 
+  .dropdown:hover .dropbtn {background-color: #d712b0;}
+
+
+
+
+
+
+
+.nav {
+    float: left;
+    width: 54%;
+    
+    background-color:rgb(241, 203, 227);
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 10%;
+    margin: 5%;
+  }
+  
+  /* Style the list inside the menu */
+  .nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .article {
+    float: left;
+    padding: 20px;
+    width: 20%;
+    background-color:rgb(241, 203, 227);
+    border-radius: 10px;
+    
+    margin: 5%;
+    
+  }
+.h5{
+    
+background-color: red;
+border-radius: 10px;
+color: rgb(142, 208, 116);
+height: 50px;
+width: 300px;
+font-family: serif;
+font-size: 15px;
+}
+
+.h5:hover{background-color: rgb(72, 28, 28);color: azure;}
+  
+  /* Clear floats after the columns */
+  section::after {
+    content: "";
+    display: table;
+    clear: both;
+    
+    
+  }
+
+.h6{
+    float: left;
+   background-color: rgb(241, 203, 227);
+   margin-left: 7%;
+   padding-top: 10px;
+
+  }
+.h7{
+    float: left;
+    width: 50%;
+   
+    
+    border-right: 2px solid darkred;
+    color: black;
+   background-color:rgb(241, 203, 227);
+    padding: 15px;
+    
+   
+    margin: 10px;
+}
+.h8
+{ 
+    background-color: red;
+    border-radius: 5px;
+    margin-left: 20px;
+font-size: 30px;
+font-family: serif;
+}
+.h7 pre{
+    font-family: serif;
+    color: black;
+    text-align: left;
+    font-size:15px;
+    margin: 0mm;
+}
+.h9{
+    width: 40%;
+    float: left;
+    background-color: rgb(241, 203, 227);
+    text-align: center;
+    padding: 20px; 
+}
+
+
+footer{
+    margin-top: 75px;
+    width: 100%;
+    float: left;
+ background-color:aquamarine;
+
+ box-sizing: border-box;
+}
+.h10{
+    color: brown;
+    width: 20%;
+    float: left;
+    padding-top: 50;
+    padding-bottom: 50px;
+    
+}
+
+.h10 a{
+    color: #5b5858;
+}
+.article a{
+    color: black;
+
+}
+
